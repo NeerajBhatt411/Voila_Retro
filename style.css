@@ -1,0 +1,409 @@
+body {
+    margin: 0px;
+    padding:0px;
+    
+    /* background-image: url('./images/hero-bg.jpg'); */
+    /* background-color: hsl(243, 23%, 18%);; */
+  }
+  * {
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin-top: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10000;
+    /* margin-bottom: 4px; */
+  }
+
+
+  .left {
+    width: 25%;
+    display: flex;
+  
+    justify-content: center;
+  }
+  .left > a {
+    text-decoration: none;
+    color: crimson;
+    margin-left: .5vmax;
+    font-size: 2vmax;
+  
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .mid {
+    width: 80%;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-self: stretch;
+  }
+  
+  .mid > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mid > a:hover {
+    border-bottom: 2px solid crimson;
+    color: crimson;
+  }
+
+
+  /* home start */
+
+  
+  .main img{
+    /* position: relative; */
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    /* height: 712px; */
+    object-fit: cover;
+    margin-bottom: 0px;
+  }
+
+  #frillImg{
+    position: absolute;
+    top: 18vmax;
+    left: 40vmax;
+    right: 40vmax;
+    filter: brightness(200%);
+  
+  }
+
+  #Htext{
+    position: absolute;
+    top: 20vmax;
+    z-index: 443;
+    left: 25%;
+    right: 20%;
+   display: flex;
+    color: white;
+    font-size: 5vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+ 
+#forkImage{
+  position: absolute;
+  top:15vmax;
+  filter: brightness(200%);
+  left: 15vmax;
+  height: 25vmax;
+  opacity: 200%;
+  z-index: 2222;
+  
+}
+
+
+
+#knifeImage{
+  position: absolute;
+  top: 15vmax;
+  right: 15vmax;
+  filter: brightness(200%);
+  height: 25vmax;
+  z-index: 200;
+}
+
+#subText{
+  position: absolute;
+  top: 36vmax;
+  left: 26vmax;
+  right: 0vmax;
+  font-size: 3vmax;
+  color: white;
+
+}
+/* home start */
+
+#home{
+  width: 100%;
+  display: flex;
+}
+
+
+#left{
+  /* background-color: green; */
+  margin-top: 6vmax;
+  width: 35%;
+  margin-left: 3%;
+  height: 512px;
+}
+
+
+#lHeading{
+  margin-top:25px;
+  text-align: center;
+}
+
+
+#lSheading{
+  text-align: center;
+  font-size: 1.5vmax;
+}
+
+#lText{
+  margin-top: 2.4vmax;
+ text-align: justify;
+}
+
+#right{
+  width: 60%;
+  margin-top: 2vmax;
+display: flex;
+flex-wrap: wrap;
+  /* background-color: red; */
+  margin-left: 5%;
+}
+
+#lImage{
+  width: 45%;
+  /* background-color: black; */
+  height: 400px;
+}
+#lImage img{
+  width: 380px;
+  height: 500px;
+}
+#lImage :hover{
+  transform: scale(1.1);
+
+}
+
+#rImage{
+  position: relative;
+
+  width: 45%;
+  height: 500px;
+  margin-left: 5%;
+}
+#rImage img{
+  width: 380;
+filter: brightness(50%);
+  height: 500;
+
+}
+#rImage  :hover{
+  transform: scale(1.1);
+}
+#hours{
+  position: absolute;
+  bottom: 8vmax;
+  left: 8vmax;
+font-size: 3vmax;
+color: white;
+
+}
+#timing{
+  position: absolute;
+  bottom: 5vmax;
+  left: 4.5vmax;
+color: white;
+}
+
+#timing1{
+  position: absolute;
+  bottom: 3vmax;
+  left: 4.5vmax;
+color: white;
+}
+
+/* menu */
+
+#menu{
+  margin-top: 2vmax;
+  text-align: center;
+}
+
+.sectionMenu{
+  display: flex;
+  margin-top: 5vmax;
+  margin-bottom: 5vmax;
+  justify-content: space-around;
+
+}
+#menuItem{
+  /* background-color: brown; */
+  border-radius: 2%;
+  height: 300px;
+  margin: 1%;
+  
+  width: 300px;
+  text-align: center;
+  
+}
+#menuItem:hover{
+  transform: scale(1.1);
+
+}
+
+#menuItem img{
+  height: 300px;
+  width: 300px;
+  border-radius: 5%;
+}
+#happyHours{
+  height: 500px;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+#hLeft{
+  width: 40%;
+
+
+}
+#hLeft img{
+  width: 100%;
+  height: 80%;
+}
+#hRight{
+  width: 40%;
+  margin-left: 12%;
+  margin-top: 5%;
+  text-align: justify
+/* color: white; */
+}
+.hHeading{
+  text-align: center;
+}
+
+
+#cHeading{
+  text-align: center;
+  font-size: 3rem;
+}
+
+#contactUs{
+  display: flex;
+  /* background-color: red; */
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+#cLeft{
+  width: 40%;
+}
+#cLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+#cRight{
+  width: 40%;
+  /* background-color: green; */
+  margin-left: 15%;
+}
+
+#cRight form input{
+  margin: 5px;
+  width: 500px;
+
+  padding: 15px;
+}
+#cRight form textarea{
+  width: 500px;
+  height: 200px;
+  margin-left: 1%;
+
+}
+#button{
+  background-color: crimson;
+  color: white;
+  font-size: 1.5rem;
+  /* border: 2px solid red; */
+  border: none;
+
+}
+
+
+
+/* --------------------------------- */
+
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background-color: hsl(243, 23%, 18%);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.leftFooter > p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 60%;
+
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font-size: 4vmax;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: crimson;
+}
+.midFooter > p {
+  max-width: 60%;
+
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter > h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  margin: 0.5vmax;
+}
+
+

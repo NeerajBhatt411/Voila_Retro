@@ -1,0 +1,210 @@
+@media screen and (max-width: 426px ) and (min-width: 600px ) {
+    body {
+        background-color: blue;
+    }
+
+    .main img {
+        height: 712px;
+
+    }
+
+    #frillImg {
+        top: 32vmax;
+        left: 18vmax;
+        right: 12vmax;
+    }
+
+    #frillImg img {
+        width: 30vmax;
+        height: auto;
+    }
+
+
+    #knifeImage {
+        position: absolute;
+        top: 18vmax;
+        filter: brightness(200%);
+        right: 2vmax;
+        height: 25vmax;
+        opacity: 200%;
+        z-index: 2222;
+    }
+
+
+    #knifeImage img {
+        height: 60vmax;
+    }
+
+
+    #forkImage {
+        position: absolute;
+        top: 18vmax;
+        filter: brightness(200%);
+        left: 2.5vmax;
+        height: 25vmax;
+        opacity: 200%;
+        z-index: 2222;
+    }
+
+    #forkImage img {
+        height: 60vmax;
+    }
+
+
+    #Htext {
+        font-size: 4vmax;
+        top: 36vmax;
+        z-index: 443;
+        left: 19%;
+        right: auto;
+    }
+
+
+
+    #subText {
+        top: 52vmax;
+        left: 12vmax;
+        right: 0vmax;
+        font-size: 2.5vmax;
+
+
+    }
+
+
+
+}
+/* 
+
+/*  375 */
+@media screen and (max-width: 376px) {
+    body {
+        background-color: red;
+    }
+
+    .main img {
+        height: 712px;
+
+    }
+
+    #frillImg {
+        top: 32vmax;
+        left: 14vmax;
+        right: 12vmax;
+    }
+
+    #frillImg img {
+        width: 30vmax;
+        height: auto;
+    }
+
+
+  
+
+    #Htext {
+        font-size: 4vmax;
+        font-size: 3.5vmax;
+        left: 18%;
+        right: auto;
+    }
+
+
+
+    #subText {
+        top: 52vmax;
+        left: 10vmax;
+        right: 0vmax;
+        font-size: 2.2vmax;
+
+
+    }
+
+
+
+}
+
+/* mobile small  320*/
+
+
+/*  375 */
+@media screen and (max-width: 376px) {
+    body {
+        background-color: red;
+    }
+
+    .main img {
+        height: 712px;
+
+    }
+
+    #frillImg {
+        top: 32vmax;
+        left: 14vmax;
+        right: 12vmax;
+    }
+
+    #frillImg img {
+        width: 30vmax;
+        height: auto;
+    }
+
+
+  
+
+    #Htext {
+        font-size: 4vmax;
+        font-size: 3.2vmax;
+        left: 17%;
+        right: auto;
+    }
+
+
+
+    #subText {
+        top: 46vmax;
+        left: 5.8vmax;
+        right: 0vmax;
+        font-size: 2.2vmax;
+
+    }
+
+    
+    #knifeImage {
+        position: absolute;
+        top: 18vmax;
+        filter: brightness(200%);
+        right: .5vmax;
+        height: 25vmax;
+        opacity: 200%;
+        z-index: 2222;
+    }
+
+
+    #knifeImage img {
+        height: 46vmax;
+    }
+
+
+    #forkImage {
+        position: absolute;
+        top: 18vmax;
+        filter: brightness(200%);
+        left: .5vmax;
+        opacity: 200%;
+        z-index: 2222;
+    }
+
+    #forkImage img {
+        height: 46vmax;
+    }
+
+    #frillImg {
+        top: 32vmax;
+        left: 10vmax;
+        right: 12vmax;
+    }
+
+    #frillImg img {
+        width: 30vmax;
+        height: auto;
+    }
+    } 
